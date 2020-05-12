@@ -3,6 +3,7 @@
 <html{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
 <head>
     <title>{% block head_title %}{{ SITE_NAME }}{% endblock %}</title>
+    <link rel="shortcut icon" type="image/png" href="{{ STATIC_URL }}umap/img/favicon.png"/>
     <meta charset="utf-8">
     {% block extra_head %}
     {% endblock extra_head %}
