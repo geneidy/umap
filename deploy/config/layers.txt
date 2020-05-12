@@ -1,2 +1,35 @@
+[OZ]
+Url template=https://api.mapbox.com/styles/v1/geneidybc/cka2vx2nv010r1imt6g20g5uh/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZ2VuZWlkeWJjIiwiYSI6ImNrMDVsZnViNDA2c2kzY28xOXNvcmtkeW4ifQ.EyQbLWJSFGDcIGhyYOA5uQ
+MinZoom=0
+MaxZoom=18
+Attribution=© Mapbox, © OpenStreetMap
 
-mapbox
+[esri-workimagery]
+Url template=https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+MinZoom=0
+MaxZoom=18
+Attribution=Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community
+
+[esri-worldstreetmap]
+Url template=https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}
+MinZoom=0 
+MaxZoom=18
+Attribution=Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012
+
+[positron]
+Url template=https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png
+MinZoom=0
+MaxZoom=18
+Attribution=&copy; [[http://www.openstreetmap.org/copyright|OpenStreetMap]] contributors, &copy; [[https://carto.com/attributions|CARTO]]
+
+[stamen]
+Url template=https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png
+MinZoom=0 
+MaxZoom=20
+Attribution=Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
+
+[stamen-terrain]
+Url template=https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png
+MinZoom=0 
+MaxZoom=18
+Attribution=Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
