@@ -195,7 +195,7 @@ UMAP_EXTRA_URLS = {
 }
 UMAP_KEEP_VERSIONS = 10
 SITE_URL = "http://umap.org"
-SITE_NAME = 'uMap'
+SITE_NAME = 'Acquisitions Panel'
 UMAP_DEMO_SITE = False
 UMAP_EXCLUDE_DEFAULT_MAPS = False
 UMAP_MAPS_PER_PAGE = 5
