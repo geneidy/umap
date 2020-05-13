@@ -6,7 +6,7 @@ You need sudo grants on this server, and it must be connected to Internet.
 
 ## Install system dependencies
 
-    sudo apt install -y build-essential autoconf python3 python3-dev python-virtualenv wget nginx uwsgi uwsgi-plugin-python3 postgresql-9.5 postgresql-server-dev-9.5 postgresql-9.5-postgis-2.2 git libxml2-dev libxslt1-dev zlib1g-dev
+    sudo apt install -y build-essential autoconf python3 python3-dev python-virtualenv python3-pip wget nginx uwsgi uwsgi-plugin-python3 postgresql-9.5 postgresql-server-dev-9.5 postgresql-9.5-postgis-2.2 git libxml2-dev libxslt1-dev zlib1g-dev
 
 *Note: nginx and uwsgi are not required for local development environment*
 
@@ -66,7 +66,7 @@ From now on, unless we say differently, the commands are run as `umap` user.
 you will need to run again this last line.*
 
 
-## Install DEFAULT umap (skip if fork)
+## Install umap 
 
     pip install umap-project
 
