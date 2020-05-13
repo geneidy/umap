@@ -93,6 +93,7 @@ MEDIA_ROOT = '/srv/umap/var/data'
 ## Collect the statics
 
     python manage.py collectstatic
+    umap collectstatic
 
 ## Create a superuser
 
