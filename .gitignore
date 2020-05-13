@@ -1,6 +1,7 @@
 ### UMap ###
 umap/settings/local.py
 umap/settings/local/*
+umap/settings/prod.py
 docs/_build
 umap/remote_static
 tmp/*
